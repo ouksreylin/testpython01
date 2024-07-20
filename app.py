@@ -1,3 +1,4 @@
+        # 13-07-2024
 # print("Hello Student"+" From BBU"+str(5))
 # print("Hi")
 #
@@ -34,11 +35,11 @@
 
 
 
-# # test03
-# print("Welcome to the band name generator")
-# city=input("Which city did you grow up in ? \n")
-# pet=input("What is the name of a pet ? \n")
-# print("Your band name could be "+city+" "+pet)
+# test03
+print("Welcome to the band name generator")
+city=input("Which city did you grow up in ? \n")
+pet=input("What is the name of a pet ? \n")
+print("Your band name could be "+city+" "+pet)
 
 
 
