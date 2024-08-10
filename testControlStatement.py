@@ -105,6 +105,98 @@
 #     i+=1
 #
 
-            # for in range
-for count in range(6):
-    print(f'Data {count}')
+            # for in loop (range)
+# for count in range(6):
+#     print(f'Data {count}')
+
+
+
+    #10-08-2024
+
+# for val in range(10):
+#     print(val)
+
+# for val in range(2,10):
+#     print(val)
+
+# for val in range(2,10,2):
+#     print(val)
+
+
+        # loop with string
+    # ('''   ''' : can write multi line.)
+# message='''
+#     hello from BBU
+# '''
+# for cha in message:
+#     if cha not in 'aeiouAEIOU':
+#         print(cha,end="")
+
+
+#         #loop in tuples
+# numbers=(3,4,5,1)
+# total=0
+# for num in numbers:
+#     total+=num
+#
+#
+# print(f'Total = {total}')
+
+            #loop in list
+# numbers=[23,45,64,78,13,48]
+# for d in numbers:
+#     if d%2==0:
+#         print(d)
+
+# lenNum=len(numbers)
+# for ind in range(lenNum):
+#     print(numbers[ind])
+
+
+
+            #loop with dictionary
+numbers={10:"Ten",20:"Twenty",30:"Thirty"}
+#for val in numbers:     #print only key
+#   print(val)
+
+# for val in numbers.keys():     #print only key
+#     print(numbers[val])         #print value of key
+
+# for val in numbers.items():     #print key and value
+#     print(val)
+
+# for k,val in numbers.items():     #print key and value
+#     print(f'Key ={k} val = {val}')
+
+
+        #practice : sum even number
+# print("Sum even number")
+# num =int(input("Input Number : "))
+# total=0
+# for n in range(num+1):
+#     if n%2==0:
+#         total+=n
+#
+#
+# print(f'Total = {total}')
+
+
+
+        #while loop statement
+# count =0
+# while count <5 :
+#     count+=1
+#     print("Iteration no. {}".format(count))
+#
+# print("End of while loop")
+
+
+            # isnumberic()
+# val1="0"
+# #print(val1.isnumeric())
+# while val1.isnumeric()==True:
+#     if(val1.isnumeric()==True):
+#         print(f"Your input {val1}")
+#     val1 = "Test"
+#
+# print("End loop")
