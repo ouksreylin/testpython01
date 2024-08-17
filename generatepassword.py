@@ -40,7 +40,7 @@ print(f'Your Password Generator : {tmpPassword}')
 # tmpPassword = list(tmpPassword)  # convert tmpPassword to list [tmpPassword]
 #
 # # shuffle list
-# random.shuffle(tmpPassword)  # mix tmpPassword [d5*f3%]
+# random.shuffle(tmpPassword)  # mix tmpPassword [d5*f3%] only List
 #
 # # convert list to String
 # tmpPassword = ''.join(tmpPassword)  #function join to join with empty string ''
